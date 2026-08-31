@@ -1,0 +1,6 @@
+{
+  "name": "Warden",
+  "description": "Low-energy, high-utility crowdsourcing app for UK Public Rights of Way with Google Drive sync.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

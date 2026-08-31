@@ -1,0 +1,52 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+:root {
+  --warden-yellow: #FFD700;
+  --warden-black: #000000;
+}
+
+body {
+  background-color: var(--warden-black);
+  color: var(--warden-yellow);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  user-select: none;
+}
+
+.leaflet-container {
+  background: #09090b !important;
+  font-family: inherit;
+}
+
+/* Custom High-Contrast Tooltips */
+.custom-prow-tooltip {
+  background: rgba(10, 10, 10, 0.95) !important;
+  border: 1.5px solid #FFD700 !important;
+  border-radius: 12px !important;
+  padding: 8px 12px !important;
+  color: #fff !important;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.8) !important;
+  backdrop-filter: blur(8px) !important;
+}
+
+.custom-prow-tooltip:before {
+  border-top-color: #FFD700 !important;
+}
+
+.leaflet-popup-content-wrapper {
+  background: #09090b !important;
+  color: #fff !important;
+  border: 2px solid #FFD700 !important;
+  border-radius: 16px !important;
+}
+
+.leaflet-popup-tip {
+  background: #09090b !important;
+  border: 1px solid #FFD700 !important;
+}
+
+.custom-prow-marker {
+  background: transparent;
+  border: none;
+}
+
